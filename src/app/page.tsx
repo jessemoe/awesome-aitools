@@ -12,7 +12,7 @@ export default function About() {
   ]
   const PAINT_TOOLS = [{ icon: '/img/midjourney.jpeg', href: 'https://www.midjourney.com', label: 'Midjourney' },
   { icon: '/img/photorroom.jpeg', href: 'https://www.photoroom.com', label: 'PhotorRoom' },
-  { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
+  { icon: '/img/printid.png', href: 'https://www.printidea.art/', label: '造梦师' },
   { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
   { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
   ]
