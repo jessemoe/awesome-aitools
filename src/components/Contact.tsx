@@ -4,19 +4,15 @@ export default function Contact() {
   const links: Links[] = [
     {
       label: 'Twitter',
-      href: 'https://twitter.com/kelvinamp_'
-    },
-    {
-      label: 'Instagram',
-      href: 'https://instagram.com/kelvinamp_'
+      href: 'https://twitter.com/liemoshashou'
     },
     {
       label: 'GitHub',
-      href: 'https://github.com/kelvinampofo'
+      href: 'https://github.com/stark-eth/awesome-ai-tools'
     },
     {
-      label: 'k@kelvinamp.me',
-      href: 'mailto:k@kelvinamp.me'
+      label: 'blureth.dao@gmail.com',
+      href: 'mailto:blureth.dao@gmail.com'
     }
   ];
 

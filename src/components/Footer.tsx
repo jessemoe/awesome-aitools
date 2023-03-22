@@ -8,7 +8,7 @@ export default function Footer() {
       )}
     >
       <span>
-        CC BY-NC 4.0 <i>{new Date().getFullYear()}</i> © Kelvin Ampofo.
+        CC BY-NC 4.0 <i>{new Date().getFullYear()}</i> © Stark.
       </span>
     </footer>
   );

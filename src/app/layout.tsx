@@ -1,6 +1,5 @@
 import '@/styles/globals.css';
 
-import Footer from '@/components/Footer';
 import { cn } from '@/lib/utils';
 import { RootLayoutProps } from '@/types';
 import type { Metadata } from 'next';
@@ -13,23 +12,23 @@ const fontSans = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Kelvin Ampofo',
-    template: '%s | Kelvin Ampofo'
+    default: 'Awesome AI tools',
+    template: '%s | Awesome AI tools'
   },
-  description: 'Crafting interfaces.',
+  description: 'Awesome AI tools.',
   openGraph: {
-    title: 'Kelvin Ampofo',
-    description: 'Crafting interfaces.',
-    url: 'https://kelvinamp.me',
-    siteName: 'Kelvin Ampofo',
+    title: 'Awesome AI tools',
+    description: 'Awesome AI tools.',
+    url: 'https://aitools.eth2.ml',
+    siteName: 'Awesome AI tools',
     locale: 'en-US',
     type: 'website'
     // TODO: add logo for images
   },
   twitter: {
-    title: 'Kelvin Ampofo',
+    title: 'Awesome AI tools',
     card: 'summary_large_image',
-    description: 'Crafting interfaces.'
+    description: 'Awesome AI tools.'
   },
   icons: {
     shortcut: '/favicon.ico'
@@ -48,7 +47,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body className="mx-auto flex max-w-3xl flex-auto flex-col text-sm antialiased md:text-base lg:text-base">
         <main className="min-h-full">{children}</main>
-        <Footer />
       </body>
     </html>
   );
