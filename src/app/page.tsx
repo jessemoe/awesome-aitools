@@ -18,15 +18,15 @@ export default function About() {
   ]
   const AUDIO_TOOLS = [{ icon: '/img/brainfm.jpeg', href: 'https://www.brain.fm', label: 'Brain.fm' },
   { icon: '/img/soundraw.jpeg', href: 'https://soundraw.io', label: 'Soundraw' },
-  { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
-  { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
-  { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
+  { icon: '/img/endel.jpeg', href: 'https://endel.io', label: 'Endel' },
+  { icon: '/img/riffusion.ico', href: 'https://www.riffusion.com/', label: 'Riffusion' },
+  { icon: '/img/papercup.jpeg', href: 'https://www.papercup.com', label: 'Papercup' },
   ]
   const VIDEO_TOOLS = [{ icon: '/img/runway.jpeg', href: 'https://runwayml.com/', label: 'Runway' },
   { icon: '/img/cascadeur.jpg', href: 'https://cascadeur.com/', label: 'Cascadur' },
-  { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
-  { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
-  { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
+  { icon: '/img/synthesia-logo.jpeg', href: 'https://www.synthesia.io', label: 'Synthesia' },
+  { icon: '/img/pollinations.jpeg', href: 'https://pollinations.ai', label: 'Pollinations' },
+  { icon: '/img/zubtitl.jpeg', href: 'https://zubtitle.com', label: 'ZUBTITL' },
   ]
 
   return (
