@@ -25,23 +25,26 @@ export default function About() {
     { icon: '/img/arc.jpeg', href: 'https://arc.tencent.com', label: 'ARC Lab' },
     { icon: '/img/artbreed.jpeg', href: 'artbreeder.com/', label: 'Artbreeder' },
   ]
-  const AUDIO_TOOLS = [{ icon: '/img/brainfm.jpeg', href: 'https://www.brain.fm', label: 'Brain.fm' },
-  { icon: '/img/soundraw.jpeg', href: 'https://soundraw.io', label: 'Soundraw' },
-  { icon: '/img/endel.jpeg', href: 'https://endel.io', label: 'Endel' },
-  { icon: '/img/riffusion.ico', href: 'https://www.riffusion.com/', label: 'Riffusion' },
-  { icon: '/img/papercup.jpeg', href: 'https://www.papercup.com', label: 'Papercup' },
+  const AUDIO_TOOLS = [
+    { icon: '/img/brainfm.jpeg', href: 'https://www.brain.fm', label: 'Brain.fm' },
+    { icon: '/img/soundraw.jpeg', href: 'https://soundraw.io', label: 'Soundraw' },
+    { icon: '/img/endel.jpeg', href: 'https://endel.io', label: 'Endel' },
+    { icon: '/img/riffusion.ico', href: 'https://www.riffusion.com/', label: 'Riffusion' },
+    { icon: '/img/papercup.jpeg', href: 'https://www.papercup.com', label: 'Papercup' },
   ]
-  const VIDEO_TOOLS = [{ icon: '/img/runway.jpeg', href: 'https://runwayml.com/', label: 'Runway' },
-  { icon: '/img/cascadeur.jpg', href: 'https://cascadeur.com/', label: 'Cascadur' },
-  { icon: '/img/synthesia-logo.jpeg', href: 'https://www.synthesia.io', label: 'Synthesia' },
-  { icon: '/img/pollinations.jpeg', href: 'https://pollinations.ai', label: 'Pollinations' },
-  { icon: '/img/zubtitl.jpeg', href: 'https://zubtitle.com', label: 'ZUBTITL' },
+  const VIDEO_TOOLS = [
+    { icon: '/img/runway.jpeg', href: 'https://runwayml.com/', label: 'Runway' },
+    { icon: '/img/cascadeur.jpg', href: 'https://cascadeur.com/', label: 'Cascadur' },
+    { icon: '/img/synthesia-logo.jpeg', href: 'https://www.synthesia.io', label: 'Synthesia' },
+    { icon: '/img/pollinations.jpeg', href: 'https://pollinations.ai', label: 'Pollinations' },
+    { icon: '/img/zubtitl.jpeg', href: 'https://zubtitle.com', label: 'ZUBTITL' },
   ]
 
   return (
     <div className="flex flex-col justify-center px-8 pb-32 md:pb-36 lg:px-10 ">
-      <h1 className="mb-10 text-6xl font-extrabold">
-        <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">Awesome AI Tools</span>
+      <h1 className="mb-10 text-center text-4xl font-extrabold">
+        <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent md:text-6xl lg:text-6xl">
+          Awesome AI Tools</span>
       </h1>
       <div>
         <div className='flex gap-2'>
