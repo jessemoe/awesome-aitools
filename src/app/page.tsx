@@ -13,8 +13,8 @@ export default function About() {
   const PAINT_TOOLS = [{ icon: '/img/midjourney.jpeg', href: 'https://www.midjourney.com', label: 'Midjourney' },
   { icon: '/img/photorroom.jpeg', href: 'https://www.photoroom.com', label: 'PhotorRoom' },
   { icon: '/img/printid.png', href: 'https://www.printidea.art/', label: '造梦师' },
-  { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
-  { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
+  { icon: '/img/arc.jpeg', href: 'https://arc.tencent.com', label: 'ARC Lab' },
+  { icon: '/img/artbreed.jpeg', href: 'artbreeder.com/', label: 'Artbreeder' },
   ]
   const AUDIO_TOOLS = [{ icon: '/img/brainfm.jpeg', href: 'https://www.brain.fm', label: 'Brain.fm' },
   { icon: '/img/soundraw.jpeg', href: 'https://soundraw.io', label: 'Soundraw' },
