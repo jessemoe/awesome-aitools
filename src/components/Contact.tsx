@@ -3,12 +3,12 @@ import { Links } from '@/types';
 export default function Contact() {
   const links: Links[] = [
     {
-      label: 'Twitter',
-      href: 'https://twitter.com/liemoshashou'
+      label: 'Contribute',
+      href: 'https://github.com/stark-eth/Awesome-AItools'
     },
     {
       label: 'GitHub',
-      href: 'https://github.com/stark-eth/awesome-ai-tools'
+      href: 'https://github.com/stark-eth/'
     },
     {
       label: 'blureth.dao@gmail.com',
