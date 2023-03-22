@@ -1,15 +1,19 @@
 import Contact from '@/components/Contact';
 import Icon from '@/components/Icon';
 import { AiFillFileText, AiOutlineVideoCameraAdd } from 'react-icons/ai';
-import { SiOpenai, SiNotion, SiAirplayaudio } from 'react-icons/si'
+import { SiOpenai, SiNotion, SiAirplayaudio, SiMicrosoftbing } from 'react-icons/si'
 import { GiLargePaintBrush } from 'react-icons/gi'
+import { FcGoogle } from 'react-icons/fc'
 
 export default function About() {
-  const TEXT_TOOLS = [{ icon: SiOpenai, href: 'https://chat.openai.com/chat', label: 'Chatgpt' },
-  { icon: SiNotion, href: 'https://notion.ai', label: 'Notion' },
-  { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
-  { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
-  { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
+  const TEXT_TOOLS = [
+    { icon: SiOpenai, href: 'https://chat.openai.com/chat', label: 'Chatgpt' },
+    { icon: SiMicrosoftbing, href: 'https://bing.com/new', label: 'New Bing', color: '#008CE2' },
+    { icon: SiNotion, href: 'https://notion.ai', label: 'Notion' },
+    { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
+    { icon: FcGoogle, href: 'https://bard.google.com/', label: 'Bard' },
+    { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
+    { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
   ]
   const PAINT_TOOLS = [
     { icon: '/img/paint.png', href: 'https://stablediffusionweb.com/', label: 'Stable Diffusion' },
@@ -46,7 +50,7 @@ export default function About() {
         </div>
         <div className='my-4 grid grid-cols-4  border border-orange-500 p-2'>
           {TEXT_TOOLS.map((item, index) => (
-            <Icon key={index} icon={item.icon} href={item.href} label={item.label}></Icon>
+            <Icon key={index} icon={item.icon} href={item.href} label={item.label} color={item.color}></Icon>
           ))}
         </div>
       </div>
