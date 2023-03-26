@@ -5,10 +5,11 @@ export const TEXT_TOOLS = [
     { icon: SiOpenai, href: 'https://chat.openai.com/chat', label: 'Chatgpt' },
     { icon: SiMicrosoftbing, href: 'https://bing.com/new', label: 'New Bing', color: '#008CE2' },
     { icon: SiNotion, href: 'https://notion.ai', label: 'Notion' },
-    { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
+    { icon: '/img/loop.png', href: 'https://loop.microsoft.com/', label: 'Loop' },
     { icon: FcGoogle, href: 'https://bard.google.com/', label: 'Bard' },
     { icon: '/img/writesonic.jpeg', href: 'https://writesonic.com', label: 'Writesonic' },
     { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
+    { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
   ]
   export const PAINT_TOOLS = [
     { icon: '/img/paint.png', href: 'https://stablediffusionweb.com/', label: 'Stable Diffusion' },
