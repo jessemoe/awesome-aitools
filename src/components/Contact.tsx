@@ -4,7 +4,7 @@ export default function Contact() {
   const links: Links[] = [
     {
       label: 'Contribute',
-      href: 'https://github.com/stark-eth/Awesome-AItools'
+      href: 'https://github.com/stark-eth/awesome-aitools'
     },
     {
       label: 'GitHub',
