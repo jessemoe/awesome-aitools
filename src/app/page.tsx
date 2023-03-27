@@ -5,7 +5,7 @@ import { SiAirplayaudio } from 'react-icons/si'
 import { GiLargePaintBrush } from 'react-icons/gi'
 import { AUDIO_TOOLS, PAINT_TOOLS, TEXT_TOOLS, VIDEO_TOOLS } from '@/lib/tools';
 
-export default function About() {
+export default function Main() {
 
   return (
     <div className="flex flex-col justify-center px-8 pb-32 md:pb-36 lg:px-10 ">
