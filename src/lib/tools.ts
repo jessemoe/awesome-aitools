@@ -28,6 +28,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/endel.jpeg', href: 'https://endel.io', label: 'Endel' },
     { icon: '/img/riffusion.ico', href: 'https://www.riffusion.com/', label: 'Riffusion' },
     { icon: '/img/papercup.jpeg', href: 'https://www.papercup.com', label: 'Papercup' },
+    { icon: '/img/elevenlabs.png', href: 'https://beta.elevenlabs.io/', label: 'ElevenLabs' },
   ]
   export const VIDEO_TOOLS = [
     { icon: '/img/runway.jpeg', href: 'https://runwayml.com/', label: 'Runway' },
