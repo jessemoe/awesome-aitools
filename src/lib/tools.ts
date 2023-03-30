@@ -30,6 +30,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/papercup.jpeg', href: 'https://www.papercup.com', label: 'Papercup' },
     { icon: '/img/elevenlabs.png', href: 'https://beta.elevenlabs.io/', label: 'ElevenLabs' },
     { icon: '/img/bird.png', href: 'https://github.com/babysor/MockingBird', label: 'MockingBird' },
+    { icon: '/img/lalal.jpeg', href: 'https://www.lalal.ai/', label: 'LALAL AI' },
   ]
   export const VIDEO_TOOLS = [
     { icon: '/img/runway.jpeg', href: 'https://runwayml.com/', label: 'Runway' },
