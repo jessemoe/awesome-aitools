@@ -21,7 +21,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/novelai.jpeg', href: 'https://novelai.net/', label: 'NovelAI' },
     { icon: '/img/printid.png', href: 'https://www.printidea.art/', label: '造梦师' },
     { icon: '/img/arc.jpeg', href: 'https://arc.tencent.com', label: 'ARC Lab' },
-    { icon: '/img/artbreed.jpeg', href: 'artbreeder.com/', label: 'Artbreeder' },
+    { icon: '/img/artbreed.jpeg', href: 'https://artbreeder.com/', label: 'Artbreeder' },
   ]
   export const AUDIO_TOOLS = [
     { icon: '/img/brainfm.jpeg', href: 'https://www.brain.fm', label: 'Brain.fm' },
