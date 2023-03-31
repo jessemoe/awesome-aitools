@@ -13,7 +13,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/character.png', href: 'https://beta.character.ai/', label: 'Character AI' },
   ]
   export const PAINT_TOOLS = [
-    { icon: '/img/paint.png', href: 'https://stablediffusionweb.com/', label: 'Stable Diffusion' },
+    { icon: '/img/paint.png', href: 'https://dezgo.com/', label: 'Stable Diffusion' },
     { icon: '/img/paint.png', href: 'https://github.com/cloneofsimo/lora', label: 'LoRA' },
     { icon: '/img/midjourney.jpeg', href: 'https://www.midjourney.com', label: 'Midjourney' },
     { icon: '/img/photorroom.jpeg', href: 'https://www.photoroom.com', label: 'PhotorRoom' },
