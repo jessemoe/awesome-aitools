@@ -18,6 +18,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/midjourney.jpeg', href: 'https://www.midjourney.com', label: 'Midjourney' },
     { icon: '/img/photorroom.jpeg', href: 'https://www.photoroom.com', label: 'PhotorRoom' },
     { icon: '/img/stock.jpeg', href: 'https://stockimg.ai/', label: 'STOCKIMG.AI' },
+    { icon: '/img/niji.jpeg', href: 'https://nijijourney.com/', label: 'niji journey' },
     { icon: '/img/novelai.jpeg', href: 'https://novelai.net/', label: 'NovelAI' },
     { icon: '/img/printid.png', href: 'https://www.printidea.art/', label: '造梦师' },
     { icon: '/img/arc.jpeg', href: 'https://arc.tencent.com', label: 'ARC Lab' },
