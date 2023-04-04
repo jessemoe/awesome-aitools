@@ -41,3 +41,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/pollinations.jpeg', href: 'https://pollinations.ai', label: 'Pollinations' },
     { icon: '/img/zubtitl.jpeg', href: 'https://zubtitle.com', label: 'ZUBTITL' },
   ]
+
+  export const AI_PROMPT = [
+    
+  ]
