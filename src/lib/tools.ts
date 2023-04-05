@@ -43,5 +43,5 @@ export const TEXT_TOOLS = [
   ]
 
   export const AI_PROMPT = [
-    
+    {icon:'/img/aitag.png', href: 'https://aitag.top/', label:'AI TAG'}
   ]
