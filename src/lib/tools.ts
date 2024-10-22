@@ -11,6 +11,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/copyai.jpeg', href: 'https://www.copy.ai', label: 'Copy.ai' },
     { icon: '/img/sidekick.jpeg', href: 'https://www.airops.com/', label: 'AI Data sidekick' },
     { icon: '/img/character.png', href: 'https://beta.character.ai/', label: 'Character AI' },
+    { icon: '/img/logicballs.png', href: 'https://logicballs.com/', label: 'LogicBalls' },
   ]
   export const PAINT_TOOLS = [
     { icon: '/img/paint.png', href: 'https://dezgo.com/', label: 'Stable Diffusion' },
