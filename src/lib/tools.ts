@@ -16,6 +16,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/paint.png', href: 'https://dezgo.com/', label: 'Stable Diffusion' },
     { icon: '/img/paint.png', href: 'https://www.mage.space/', label: 'Mage' },
     { icon: '/img/midjourney.jpeg', href: 'https://www.midjourney.com', label: 'Midjourney' },
+    { icon: '/img/paint.png', href: 'https://www.landscapioai.com', label: 'LandscapioAI' },
     { icon: '/img/photorroom.jpeg', href: 'https://www.photoroom.com', label: 'PhotorRoom' },
     { icon: '/img/stock.jpeg', href: 'https://stockimg.ai/', label: 'STOCKIMG.AI' },
     { icon: '/img/niji.jpeg', href: 'https://nijijourney.com/', label: 'niji journey' },
