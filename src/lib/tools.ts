@@ -23,6 +23,7 @@ export const TEXT_TOOLS = [
     { icon: '/img/printid.png', href: 'https://www.printidea.art/', label: '造梦师' },
     { icon: '/img/arc.jpeg', href: 'https://arc.tencent.com', label: 'ARC Lab' },
     { icon: '/img/artbreed.jpeg', href: 'https://artbreeder.com/', label: 'Artbreeder' },
+    { icon: '/img/paint.png', href: 'https://photogenerai.com', label: 'PhotoGenerAI' },
   ]
   export const AUDIO_TOOLS = [
     { icon: '/img/brainfm.jpeg', href: 'https://www.brain.fm', label: 'Brain.fm' },
